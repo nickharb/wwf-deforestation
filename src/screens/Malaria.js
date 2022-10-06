@@ -2,6 +2,7 @@ import { useState } from "react";
 import DriverTab from "../components/DriverTab";
 import CountryTab from "../components/CountryTab";
 import Blurb from "../components/Blurb";
+import LinkToTop from "../components/LinkToTop";
 
 import "./Page.css";
 
@@ -349,6 +350,7 @@ function MalariaPage() {
           governments to identify solutions that bridge the need for sustainable
           livelihoods and effective conservation.
         </p>
+        <LinkToTop />
       </div>
     </div>
   );

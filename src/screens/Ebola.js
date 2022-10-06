@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DriverTab from "../components/DriverTab";
 import Blurb from "../components/Blurb";
+import LinkToTop from "../components/LinkToTop";
 
 import "./Page.css";
 
@@ -148,6 +149,7 @@ function EbolaPage() {
           opportunities, we support communities as stewards of their forests and
           their resources.
         </p>
+        <LinkToTop />
       </div>
     </div>
   );

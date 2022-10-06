@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DriverTab from "../components/DriverTab";
 import Blurb from "../components/Blurb";
+import LinkToTop from "../components/LinkToTop";
 
 import "./Page.css";
 
@@ -133,6 +134,7 @@ function LymePage() {
           encourage consumers to choose wood and paper products that are from
           responsibly managed forests.
         </p>
+        <LinkToTop />
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ const Nav = (props) => {
     ));
   }
 
-  return <nav className="nav">{navContent}</nav>;
+  return <nav id="nav" className="nav">{navContent}</nav>;
 };
 
 export default Nav;
